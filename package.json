@@ -1,0 +1,44 @@
+{
+  "name": "album-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "standard && jest --testEnvironment=node --detectOpenHandles --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfiandpratama/album-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfiandpratama/album-backend/issues"
+  },
+  "homepage": "https://github.com/alfiandpratama/album-backend#readme",
+  "dependencies": {
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.2.1",
+    "mongoose": "^5.10.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4",
+    "standard": "*",
+    "supertest": "^4.0.2"
+  },
+  "standard": {
+    "ignore": [
+      "/tests"
+    ]
+  }
+}
